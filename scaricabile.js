@@ -123,3 +123,28 @@ const jobs = [
   },
 ]
 
+let pLavorativa =prompt("inserisci posizione lavorativa")
+let localita=prompt("inserisci per localita ")
+let count=0
+let result=[]
+pLavorativa.toLowerCase(pLavorativa)
+localita.toLowerCase(localita)
+console.log(pLavorativa,localita)
+/*for ( let i=0;i<jobs.length; i++) {
+      let titolo=jobs[i].title.toLowerCase
+      let zona=jobs[i].location.toLowerCase
+      console.log (titolo,zona)
+      let ric1= titolo.title.includes(pLavorativa)
+      //console.log(ric1)
+      let ric2= zona.location.includes(localita)
+      //console.log(ric2)
+      if ((ric1)&&(ric2)) {
+        result.push(jobs[i]) 
+        count+=1
+      }
+}
+      console.log(result)
+      console.log(count)*/
+     
+
+
